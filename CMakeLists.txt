@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.31)
-project(ormStatementInterpolation)
+project(ormStatementWorker)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ormStatementInterpolation main.cpp
+add_executable(ormStatementWorker main.cpp
         statement/query.cpp
         statement/query.h
         statement/post.cpp
